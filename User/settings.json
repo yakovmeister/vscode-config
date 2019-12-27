@@ -16,7 +16,7 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "diffEditor.renderSideBySide": true,
   "diffEditor.renderIndicators": true,
-  "editor.fontFamily": "'Operator Mono Lig Book', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono Lig Book', 'Operator Mono Book', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.insertSpaces": true,

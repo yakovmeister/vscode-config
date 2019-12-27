@@ -18,3 +18,7 @@ Replace vscode's `User/settings.json` file with the one included in this reposit
 * [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)  
 * [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)  
 * [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer)  
+  
+## Using Operator Mono Font  
+  
+You have to generate customized operator mono font to support ligature. You can follow [this](https://github.com/kiliman/operator-mono-lig) guide to generate operator mono with ligature
