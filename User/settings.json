@@ -127,5 +127,8 @@
   "files.eol": "\n",
 
   /** breadcrumbs */
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+
+  /** emmet */
+  "emmet.triggerExpansionOnTab": true
 }
