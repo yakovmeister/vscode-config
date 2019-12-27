@@ -16,7 +16,7 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "diffEditor.renderSideBySide": true,
   "diffEditor.renderIndicators": true,
-  "editor.fontFamily": "'Operator Mono Book', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono Lig Book', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.insertSpaces": true,
@@ -84,7 +84,7 @@
   "git.ignoreMissingGitWarning": false,
 
   /** terminal */
-  "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Operator Mono Lig Book",
   "terminal.integrated.rendererType": "dom",
 
   /** explorer */
