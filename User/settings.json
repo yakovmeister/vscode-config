@@ -1,0 +1,131 @@
+{
+  /** Bracket Pair Colorizer */
+  "bracketPairColorizer.forceIterationColorCycle": true,
+
+  /** :emojisense: */
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": {
+        "markupCompletionsEnabled": false,
+        "emojiDecoratorsEnabled": false
+    },
+    "git-commit": true
+  },
+
+  /** editor */
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.renderIndicators": true,
+  "editor.fontFamily": "'Operator Mono Book', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "entity.name.type.class",     //class names
+          "keyword",                    //import, export, return…
+          "constant",                   //String, Number, Boolean…, this, super
+          "storage.modifier",           //static keyword
+          "storage.type.class.js",      //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+
+  /** workbench */
+  "workbench.colorTheme": "Night Owl",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000C1D",
+    "activityBar.border": "#102a44",
+    "sideBar.background": "#001122",
+    "sideBar.border": "#102a44",
+  },
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.statusBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.startupEditor": "readme",
+
+  /** git */
+  "git.enabled": true,
+  "git.autorefresh": true,
+  "git.autofetch": true,
+  "git.confirmSync": true,
+  "git.countBadge": "all",
+  "git.checkoutType": "all",
+  "git.ignoreLegacyWarning": false,
+  "git.ignoreLimitWarning": false,
+  "git.enableSmartCommit": false,
+  "git.ignoreMissingGitWarning": false,
+
+  /** terminal */
+  "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+  "terminal.integrated.rendererType": "dom",
+
+  /** explorer */
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": true,
+  "explorer.enableDragAndDrop": true,
+  "explorer.sortOrder": "default",
+
+  /** window */
+  "window.title": "${folderName} [${dirty}${activeEditorMedium}]",
+  "window.zoomLevel": 0,
+  "window.titleBarStyle": "custom",
+  "window.closeWhenEmpty": false,
+
+  /** files */
+  "files.autoSaveDelay": 10000,
+  "files.autoSave": "afterDelay",
+  "files.hotExit": "onExitAndWindowClose",
+  "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true
+  },
+  "files.associations": {
+    "*.js": "javascript",
+    "*.ts": "typescript",
+    "*.md": "markdown",
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "files.eol": "\n",
+
+  /** breadcrumbs */
+  "breadcrumbs.enabled": false
+}

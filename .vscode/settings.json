@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.eol": "\n",
+  "window.title": "${folderName} [${dirty}${activeEditorMedium}]",
+  "window.zoomLevel": 0
+}
