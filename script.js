@@ -4,12 +4,16 @@ const extensions = {
   ":emojisense:": "bierner.emojisense",
   "Bracket Pair Colorizer": "CoenraadS.bracket-pair-colorizer",
   "Color Info": "bierner.color-info",
-  "Debugger for Chrome": "msjsdiag.debugger-for-chrome",
   "Git Lens": "eamodio.gitlens",
   "Lorem Ipsum": "Tyriar.lorem-ipsum",
   "Material Icon Theme": "PKief.material-icon-theme",
   "Night Owl": "sdras.night-owl",
   "Polacode": "pnp.polacode",
+  "Prettier ESLint": "rvest.vs-code-prettier-eslint",
+  "Prettier": "esbenp.prettier-vscode",
+  "ESLint": "dbaeumer.vscode-eslint",
+  "Docket": "ms-azuretools.vscode-docker",
+  "Import Cost": "wix.vscode-import-cost",
   "Swagger Viewer": "Arjun.swagger-viewer"
 };
 
